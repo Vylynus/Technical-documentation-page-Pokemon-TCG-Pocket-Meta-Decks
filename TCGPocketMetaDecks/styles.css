@@ -1,0 +1,45 @@
+body {
+    background-color: #353238;
+    color: #fff;
+    margin: 0 auto;
+    padding: 30px;
+    min-width: 290px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+#navbar {
+    top: 0;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+}
+
+#main-doc {
+    position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+#nav-link {
+    position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+}
+
+@media (max-width: 10000px) {
+    .main-section {
+        padding: 2rem;
+    }
+}
